@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating system
+.DS_Store
+.vscode/
+.idea/
+
+# Data
+data/
+hw3data/
+Flickr8k_Dataset/
+*.zip
+
+# Generated features and model artifacts
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+outputs/
