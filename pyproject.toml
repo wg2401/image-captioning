@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "image-captioning"
+version = "0.1.0"
+description = "Experiments with ResNet and LSTM-based image captioning"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "torchvision",
+    "pillow",
+    "numpy",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
