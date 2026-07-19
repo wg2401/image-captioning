@@ -24,3 +24,7 @@ Flickr8k_Dataset/
 *.ckpt
 checkpoints/
 outputs/
+
+sandbox/
+
+notebook.ipynb
