@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: image-captioning
+Version: 0.1.0
+Summary: Experiments with ResNet and LSTM-based image captioning
+Requires-Python: >=3.10
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: pillow
+Requires-Dist: numpy
